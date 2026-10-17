@@ -1,0 +1,14 @@
+:root { --navy: #1D4E89; --text: #1f2933; --muted: #5b6472; --bg: #F4F6F8; --card: #ffffff; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; line-height: 1.8; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+header { margin-bottom: 24px; }
+header p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+h1 { font-size: 1.6rem; line-height: 1.4; margin: 4px 0 0; color: var(--navy); }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-left: 10px; border-left: 4px solid var(--navy); }
+h3 { font-size: 1rem; margin: 20px 0 4px; }
+section { background: var(--card); border-radius: 14px; padding: 4px 20px 16px; margin-bottom: 16px; }
+ul, ol { padding-left: 1.4em; }
+a { color: var(--navy); overflow-wrap: anywhere; }
+nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+footer { color: var(--muted); font-size: 0.85rem; margin-top: 32px; }
